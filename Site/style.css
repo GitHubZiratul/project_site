@@ -1,0 +1,64 @@
+body {  padding:0px; 
+        margin:0; 
+        font-size:14px; 
+        font-family:Arial, Sans-serif;
+        background-attachment: fixed; /* Фон страницы фиксируется */
+        background-image: url(images/fon1.png); /* Путь к фоновому изображению */
+        background-size: 100%;
+    }
+#basic {width:960px; min-height:950px; margin:0 auto; padding:20px 20px 20px 20px; background:#fff;}
+img {border:0;}
+a {color:black;}
+a:hover {text-decoration:none;}
+
+/*Верхнее меню сайта*/
+#top-menu {width:960px; height:74px; }
+.bg-1 {width:935px; height:64px; background:#171988; padding:0 0 0 10px;}
+.bg-2 {width:925px; height:8px; background:#00ccfffb; margin:0 auto;}
+.bg-1 ul {margin:0; padding:0; list-style:none;}
+.bg-1 ul li {float:left; padding:0 2px 0 0;}
+.bg-1 ul li a {display:block; height:40px; padding:24px 27px 0 27px; color:#ff9c00; text-decoration:none; text-transform:uppercase;}
+.bg-1 ul li a:hover {color:black; background:#00ccfffb;}
+
+
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 400px;
+  margin:20px;
+}
+input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  border: 2px solid #00ccfffb;
+  border-radius: 5px;
+  outline: none;
+  background: #fff;
+  color: #fff;
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #00ccfffb;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+button:before {
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+
+span{height:40px; width:40px; display:block; position:center;}
+ 
+.lupa:before, .lupa:after{content:''; height:20px; display:block; position:absolute; top:0; left:0; }
+ 
+.lupa:before{width:20px; border:3px #333 solid; border-radius:100%;-webkit-border-radius:100%;-moz-border-radius:100%;}
+ 
+.lupa:after{width:7px; background:#333; transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg); top:17px; left:24px;}
